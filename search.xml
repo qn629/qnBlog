@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/qnBlog/2023/03/29/hello-world/"/>
+      <url>/qnBlog/2023/03/29/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>My awesome title</title>
+      <link href="/qnBlog/2016/10/12/qn/"/>
+      <url>/qnBlog/2016/10/12/qn/</url>
+      
+        <content type="html"><![CDATA[<h1 id="makedown语法教程"><a href="#makedown语法教程" class="headerlink" title="makedown语法教程"></a>makedown语法教程</h1><h2 id="makedown介绍"><a href="#makedown介绍" class="headerlink" title="makedown介绍"></a>makedown介绍</h2><h2 id="Markdown是一种轻量级标记语言，排版语法简洁，让人们更多地关注内容本身而非排版。它使用易读易写的纯文本格式编写文档，可与HTML混编，可导出-HTML、PDF-以及本身的-md-格式的文件。因简洁、高效、易读、易写，Markdown被大量使用，如Github、Wikipedia、简书等。-Markdown-标题语法要创建标题，请在单词或短语前面添加井号-。-的数量代表了标题的级别。"><a href="#Markdown是一种轻量级标记语言，排版语法简洁，让人们更多地关注内容本身而非排版。它使用易读易写的纯文本格式编写文档，可与HTML混编，可导出-HTML、PDF-以及本身的-md-格式的文件。因简洁、高效、易读、易写，Markdown被大量使用，如Github、Wikipedia、简书等。-Markdown-标题语法要创建标题，请在单词或短语前面添加井号-。-的数量代表了标题的级别。" class="headerlink" title="Markdown是一种轻量级标记语言，排版语法简洁，让人们更多地关注内容本身而非排版。它使用易读易写的纯文本格式编写文档，可与HTML混编，可导出 HTML、PDF 以及本身的 .md 格式的文件。因简洁、高效、易读、易写，Markdown被大量使用，如Github、Wikipedia、简书等。## Markdown 标题语法要创建标题，请在单词或短语前面添加井号 (#) 。# 的数量代表了标题的级别。"></a>Markdown是一种轻量级标记语言，排版语法简洁，让人们更多地关注内容本身而非排版。它使用易读易写的纯文本格式编写文档，可与HTML混编，可导出 HTML、PDF 以及本身的 .md 格式的文件。因简洁、高效、易读、易写，Markdown被大量使用，如Github、Wikipedia、简书等。<br>## Markdown 标题语法<br>要<em><strong>创建标题</strong></em>，请在单词或短语前面添加井号 (#) 。# 的数量代表了标题的级别。</h2><ul><li>大无畏的</li><li>阿萨打完吃饭·</li><li>个人热<blockquote><p>dwwd</p><blockquote><p>dsad</p></blockquote></blockquote><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$(document).ready(function () &#123;</span><br><span class="line">    alert(<span class="string">&#x27;RUNOOB&#x27;</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure></li></ul><hr><h2 id="这是一个链接-菜鸟教程"><a href="#这是一个链接-菜鸟教程" class="headerlink" title="这是一个链接 菜鸟教程"></a>这是一个链接 <a href="https://www.runoob.com/">菜鸟教程</a></h2><h2 id=""><a href="#" class="headerlink" title=""></a><img src="/qnBlog/themes/hexo-theme-diaspora/source/img/-.jpg"></h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> 分类1 </category>
+          
+          <category> 分类2 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 标签1 </tag>
+            
+            <tag> 标签2 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
