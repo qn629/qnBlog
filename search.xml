@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>机器学习期末复习</title>
+      <link href="/qnBlog/2023/04/27/Machine-learning/"/>
+      <url>/qnBlog/2023/04/27/Machine-learning/</url>
+      
+        <content type="html"><![CDATA[<h2 id="一、绪论"><a href="#一、绪论" class="headerlink" title="一、绪论"></a>一、绪论</h2><hr><h3 id="1-监督学习和无监督学习的区别"><a href="#1-监督学习和无监督学习的区别" class="headerlink" title="1.监督学习和无监督学习的区别"></a>1.监督学习和无监督学习的区别</h3><p><img src="https://s1.locimg.com/2023/04/27/ef74ac7c29130.png">  </p><h3 id="2-“分类”-与-“回归”的概念及区别详解"><a href="#2-“分类”-与-“回归”的概念及区别详解" class="headerlink" title="2.“分类” 与 “回归”的概念及区别详解"></a>2.“分类” 与 “回归”的概念及区别详解</h3><p>分享链接：<a href="https://blog.csdn.net/shuiyixin/article/details/88816416">https://blog.csdn.net/shuiyixin/article/details/88816416</a>  </p><h3 id="3-6分钟了解所有机器学习模型"><a href="#3-6分钟了解所有机器学习模型" class="headerlink" title="3.6分钟了解所有机器学习模型"></a>3.6分钟了解所有机器学习模型</h3><p>分享链接：<a href="https://zhuanlan.zhihu.com/p/113247552">https://zhuanlan.zhihu.com/p/113247552</a></p><h2 id="二、模型评估与选择"><a href="#二、模型评估与选择" class="headerlink" title="二、模型评估与选择"></a>二、模型评估与选择</h2><hr><h3 id="1-关于训练误差、测试误差、泛化误差"><a href="#1-关于训练误差、测试误差、泛化误差" class="headerlink" title="1.关于训练误差、测试误差、泛化误差"></a>1.关于训练误差、测试误差、泛化误差</h3><p>分享链接：<a href="https://blog.csdn.net/JohnsonSmile/article/details/88905456">https://blog.csdn.net/JohnsonSmile/article/details/88905456</a>  </p><h3 id="2-欠拟合、过拟合及如何防止过拟合"><a href="#2-欠拟合、过拟合及如何防止过拟合" class="headerlink" title="2.欠拟合、过拟合及如何防止过拟合"></a>2.欠拟合、过拟合及如何防止过拟合</h3><p>分享链接：<a href="https://zhuanlan.zhihu.com/p/72038532">https://zhuanlan.zhihu.com/p/72038532</a>  </p><h3 id="3-模型评估与选择（留出法、交叉验证法、查全率、查准率、偏差、方差）"><a href="#3-模型评估与选择（留出法、交叉验证法、查全率、查准率、偏差、方差）" class="headerlink" title="3.模型评估与选择（留出法、交叉验证法、查全率、查准率、偏差、方差）"></a>3.模型评估与选择（留出法、交叉验证法、查全率、查准率、偏差、方差）</h3><p>分享链接：<a href="https://blog.csdn.net/pxhdky/article/details/85206705">https://blog.csdn.net/pxhdky/article/details/85206705</a>  </p><h2 id="三、线性模型"><a href="#三、线性模型" class="headerlink" title="三、线性模型"></a>三、线性模型</h2><hr><h3 id="1-对数几率回归——Logistics-Regression原理-逻辑回归"><a href="#1-对数几率回归——Logistics-Regression原理-逻辑回归" class="headerlink" title="1.对数几率回归——Logistics Regression原理(逻辑回归)"></a>1.对数几率回归——Logistics Regression原理(逻辑回归)</h3><p>分享链接：<a href="https://blog.csdn.net/weixin_45698935/article/details/105971342">https://blog.csdn.net/weixin_45698935/article/details/105971342</a>  </p><h3 id="2-线性回归"><a href="#2-线性回归" class="headerlink" title="2.线性回归"></a>2.线性回归</h3><h2 id="四、决策树"><a href="#四、决策树" class="headerlink" title="四、决策树"></a>四、决策树</h2><hr><h3 id="1-信息增益"><a href="#1-信息增益" class="headerlink" title="1.信息增益"></a>1.信息增益</h3><h3 id="2-三种决策树"><a href="#2-三种决策树" class="headerlink" title="2.三种决策树"></a>2.三种决策树</h3><h3 id="3-剪枝处理"><a href="#3-剪枝处理" class="headerlink" title="3.剪枝处理"></a>3.剪枝处理</h3>]]></content>
+      
+      
+      <categories>
+          
+          <category> 编程知识 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 机器学习 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>动态规划</title>
       <link href="/qnBlog/2023/04/18/Dynamic_programming/"/>
       <url>/qnBlog/2023/04/18/Dynamic_programming/</url>

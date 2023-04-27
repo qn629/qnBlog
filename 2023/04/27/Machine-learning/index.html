@@ -18,24 +18,26 @@
   <meta name="author" content="qn">
   <meta name="keywords" content="">
   
-    <meta property="og:type" content="article">
-<meta property="og:title" content="动态规划">
-<meta property="og:url" content="https://qn629.github.io/qnBlog/2023/04/18/Dynamic_programming/index.html">
+    <meta name="description" content="一、绪论 1.监督学习和无监督学习的区别   2.“分类” 与 “回归”的概念及区别详解分享链接：https:&#x2F;&#x2F;blog.csdn.net&#x2F;shuiyixin&#x2F;article&#x2F;details&#x2F;88816416   3.6分钟了解所有机器学习模型分享链接：https:&#x2F;&#x2F;zhuanlan.zhihu.com&#x2F;p&#x2F;113247552 二、模型评估与选择 1.关于训练误差、测试误差、泛化误差分享链接：">
+<meta property="og:type" content="article">
+<meta property="og:title" content="机器学习期末复习">
+<meta property="og:url" content="https://qn629.github.io/qnBlog/2023/04/27/Machine-learning/index.html">
 <meta property="og:site_name" content="qnBlog">
+<meta property="og:description" content="一、绪论 1.监督学习和无监督学习的区别   2.“分类” 与 “回归”的概念及区别详解分享链接：https:&#x2F;&#x2F;blog.csdn.net&#x2F;shuiyixin&#x2F;article&#x2F;details&#x2F;88816416   3.6分钟了解所有机器学习模型分享链接：https:&#x2F;&#x2F;zhuanlan.zhihu.com&#x2F;p&#x2F;113247552 二、模型评估与选择 1.关于训练误差、测试误差、泛化误差分享链接：">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://img.zcool.cn/community/017b815c2b44a9a80121df901b318a.gif">
-<meta property="article:published_time" content="2023-04-18T12:34:12.000Z">
-<meta property="article:modified_time" content="2023-04-18T12:38:32.402Z">
+<meta property="og:image" content="https://ts1.cn.mm.bing.net/th/id/R-C.5766fc7ad929686d52cf8e06dd8d5f25?rik=qpA00RHyISeW%2fg&riu=http%3a%2f%2fimg.qjsmartech.com%2fTopic%2fImages%2f2021-02%2f2021022510060409348.jpg&ehk=6qdgoxff7tqCukWgS7r0crPwr8a2uCd3vxaI9VxfP7s%3d&risl=&pid=ImgRaw&r=0">
+<meta property="article:published_time" content="2023-04-27T02:34:12.000Z">
+<meta property="article:modified_time" content="2023-04-27T05:48:03.293Z">
 <meta property="article:author" content="qn">
-<meta property="article:tag" content="算法">
+<meta property="article:tag" content="机器学习">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://img.zcool.cn/community/017b815c2b44a9a80121df901b318a.gif">
+<meta name="twitter:image" content="https://ts1.cn.mm.bing.net/th/id/R-C.5766fc7ad929686d52cf8e06dd8d5f25?rik=qpA00RHyISeW%2fg&riu=http%3a%2f%2fimg.qjsmartech.com%2fTopic%2fImages%2f2021-02%2f2021022510060409348.jpg&ehk=6qdgoxff7tqCukWgS7r0crPwr8a2uCd3vxaI9VxfP7s%3d&risl=&pid=ImgRaw&r=0">
   
   
     <meta name="referrer" content="no-referrer-when-downgrade">
   
   
-  <title>动态规划 - qnBlog</title>
+  <title>机器学习期末复习 - qnBlog</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -201,7 +203,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="动态规划"></span>
+            <span id="subtitle" data-typed-text="机器学习期末复习"></span>
           
         </div>
 
@@ -212,8 +214,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2023-04-18 20:34" pubdate>
-          2023年4月18日 晚上
+        <time datetime="2023-04-27 10:34" pubdate>
+          2023年4月27日 上午
         </time>
       </span>
     
@@ -224,7 +226,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          0 字
+          540 字
         
       </span>
     
@@ -235,7 +237,7 @@
         
         
         
-          1 分钟
+          5 分钟
         
       </span>
     
@@ -281,13 +283,23 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">动态规划</h1>
+            <h1 style="display: none">机器学习期末复习</h1>
             
             
               <div class="markdown-body">
                 
-                <p><img src="https://s1.locimg.com/2023/04/18/772914fd1a4ea.png" srcset="/qnBlog/img/loading.gif" lazyload></p>
-
+                <h2 id="一、绪论"><a href="#一、绪论" class="headerlink" title="一、绪论"></a>一、绪论</h2><hr>
+<h3 id="1-监督学习和无监督学习的区别"><a href="#1-监督学习和无监督学习的区别" class="headerlink" title="1.监督学习和无监督学习的区别"></a>1.监督学习和无监督学习的区别</h3><p><img src="https://s1.locimg.com/2023/04/27/ef74ac7c29130.png" srcset="/qnBlog/img/loading.gif" lazyload>  </p>
+<h3 id="2-“分类”-与-“回归”的概念及区别详解"><a href="#2-“分类”-与-“回归”的概念及区别详解" class="headerlink" title="2.“分类” 与 “回归”的概念及区别详解"></a>2.“分类” 与 “回归”的概念及区别详解</h3><p>分享链接：<a target="_blank" rel="noopener" href="https://blog.csdn.net/shuiyixin/article/details/88816416">https://blog.csdn.net/shuiyixin/article/details/88816416</a>  </p>
+<h3 id="3-6分钟了解所有机器学习模型"><a href="#3-6分钟了解所有机器学习模型" class="headerlink" title="3.6分钟了解所有机器学习模型"></a>3.6分钟了解所有机器学习模型</h3><p>分享链接：<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/113247552">https://zhuanlan.zhihu.com/p/113247552</a></p>
+<h2 id="二、模型评估与选择"><a href="#二、模型评估与选择" class="headerlink" title="二、模型评估与选择"></a>二、模型评估与选择</h2><hr>
+<h3 id="1-关于训练误差、测试误差、泛化误差"><a href="#1-关于训练误差、测试误差、泛化误差" class="headerlink" title="1.关于训练误差、测试误差、泛化误差"></a>1.关于训练误差、测试误差、泛化误差</h3><p>分享链接：<a target="_blank" rel="noopener" href="https://blog.csdn.net/JohnsonSmile/article/details/88905456">https://blog.csdn.net/JohnsonSmile/article/details/88905456</a>  </p>
+<h3 id="2-欠拟合、过拟合及如何防止过拟合"><a href="#2-欠拟合、过拟合及如何防止过拟合" class="headerlink" title="2.欠拟合、过拟合及如何防止过拟合"></a>2.欠拟合、过拟合及如何防止过拟合</h3><p>分享链接：<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/72038532">https://zhuanlan.zhihu.com/p/72038532</a>  </p>
+<h3 id="3-模型评估与选择（留出法、交叉验证法、查全率、查准率、偏差、方差）"><a href="#3-模型评估与选择（留出法、交叉验证法、查全率、查准率、偏差、方差）" class="headerlink" title="3.模型评估与选择（留出法、交叉验证法、查全率、查准率、偏差、方差）"></a>3.模型评估与选择（留出法、交叉验证法、查全率、查准率、偏差、方差）</h3><p>分享链接：<a target="_blank" rel="noopener" href="https://blog.csdn.net/pxhdky/article/details/85206705">https://blog.csdn.net/pxhdky/article/details/85206705</a>  </p>
+<h2 id="三、线性模型"><a href="#三、线性模型" class="headerlink" title="三、线性模型"></a>三、线性模型</h2><hr>
+<h3 id="1-对数几率回归——Logistics-Regression原理-逻辑回归"><a href="#1-对数几率回归——Logistics-Regression原理-逻辑回归" class="headerlink" title="1.对数几率回归——Logistics Regression原理(逻辑回归)"></a>1.对数几率回归——Logistics Regression原理(逻辑回归)</h3><p>分享链接：<a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_45698935/article/details/105971342">https://blog.csdn.net/weixin_45698935/article/details/105971342</a>  </p>
+<h3 id="2-线性回归"><a href="#2-线性回归" class="headerlink" title="2.线性回归"></a>2.线性回归</h3><h2 id="四、决策树"><a href="#四、决策树" class="headerlink" title="四、决策树"></a>四、决策树</h2><hr>
+<h3 id="1-信息增益"><a href="#1-信息增益" class="headerlink" title="1.信息增益"></a>1.信息增益</h3><h3 id="2-三种决策树"><a href="#2-三种决策树" class="headerlink" title="2.三种决策树"></a>2.三种决策树</h3><h3 id="3-剪枝处理"><a href="#3-剪枝处理" class="headerlink" title="3.剪枝处理"></a>3.剪枝处理</h3>
                 
               </div>
             
@@ -320,7 +332,7 @@
     <div class="post-meta">
       <i class="iconfont icon-tags"></i>
       
-        <a href="/qnBlog/tags/%E7%AE%97%E6%B3%95/">#算法</a>
+        <a href="/qnBlog/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/">#机器学习</a>
       
     </div>
   
@@ -332,8 +344,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>动态规划</div>
-      <div>https://qn629.github.io/qnBlog/2023/04/18/Dynamic_programming/</div>
+      <div>机器学习期末复习</div>
+      <div>https://qn629.github.io/qnBlog/2023/04/27/Machine-learning/</div>
     </div>
     <div class="license-meta">
       
@@ -345,7 +357,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2023年4月18日</div>
+          <div>2023年4月27日</div>
         </div>
       
       
@@ -377,18 +389,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/qnBlog/2023/04/27/Machine-learning/" title="机器学习期末复习">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">机器学习期末复习</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/qnBlog/2023/04/03/interview/" title="Java面试题">
-                        <span class="hidden-mobile">Java面试题</span>
+                      <a href="/qnBlog/2023/04/18/Dynamic_programming/" title="动态规划">
+                        <span class="hidden-mobile">动态规划</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
